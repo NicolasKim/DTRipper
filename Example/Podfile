@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DTRipper_Example' do
+  pod 'DTRipper', :path => '../'
+
+  target 'DTRipper_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
