@@ -7,7 +7,7 @@
 //
 
 #import "DTAppDelegate.h"
-#import <DTRipper/DTRipper-umbrella.h>
+#import <DTRipper/DTRipper.h>
 #import "HomeModule.h"
 
 @implementation DTAppDelegate
