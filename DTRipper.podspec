@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DTRipper'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Modular support framework'
   s.description      = <<-DESC
                     Modular support framework just like BeeHive.

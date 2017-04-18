@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <DTRouter/DTRouterService.h>
 #import "DTModuleManager.h"
 #import "DTRipperAppDelegate.h"
 #import "DTRipperContext.h"
@@ -19,8 +18,6 @@
 @property (nonatomic,strong,readonly)DTRipperContext * context;
 
 @property (nonatomic,strong,readonly)DTRipperAppDelegate * appDelegate;
-
-@property (nonatomic,strong,readonly)DTRouterService     * router;
 
 +(instancetype)sharedInstance;
 

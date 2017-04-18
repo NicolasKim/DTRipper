@@ -35,7 +35,6 @@ static DTRipper * _sharedRipper;
         _moduleManager = [[DTModuleManager alloc]init];
         _context       = [[DTRipperContext alloc] init];
         _appDelegate   = [[DTRipperAppDelegate alloc]init];
-        _router        = [DTRouterService sharedInstance];
     }
     return self;
 }
