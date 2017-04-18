@@ -22,6 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		992BE25F1E9F71660094B01F /* HomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BE25E1E9F71660094B01F /* HomeModule.m */; };
+		992BE2661E9F7BFE0094B01F /* Modules.plist in Resources */ = {isa = PBXBuildFile; fileRef = 992BE2651E9F7BFE0094B01F /* Modules.plist */; };
+		992BE2691E9F7F0A0094B01F /* MyModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 992BE2681E9F7F0A0094B01F /* MyModule.m */; };
 		C80FE44D747F5762EA8EF02B /* Pods_DTRipper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7195C0676F4DAC7E2E7C5404 /* Pods_DTRipper_Example.framework */; };
 		FDB7A47B719F4C7D856A5301 /* Pods_DTRipper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317CAA57C8A68E2793FCD179 /* Pods_DTRipper_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -37,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		149C95ADB41E8E6D04B16380 /* DTRipper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DTRipper.podspec; path = ../DTRipper.podspec; sourceTree = "<group>"; };
-		247D0C6B9D3EF6A1DBFD9489 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		149C95ADB41E8E6D04B16380 /* DTRipper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DTRipper.podspec; path = ../DTRipper.podspec; sourceTree = "<group>"; };
+		247D0C6B9D3EF6A1DBFD9489 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		317CAA57C8A68E2793FCD179 /* Pods_DTRipper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTRipper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF259624189673DAF00329E /* Pods-DTRipper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTRipper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTRipper_Example/Pods-DTRipper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		532A5EDA8461423F3272277C /* Pods-DTRipper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTRipper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTRipper_Example/Pods-DTRipper_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,8 +68,14 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7195C0676F4DAC7E2E7C5404 /* Pods_DTRipper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTRipper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEDE072AF71454AC30C8F41 /* Pods-DTRipper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTRipper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTRipper_Tests/Pods-DTRipper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		817C840EB6C4A3835185C2DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		817C840EB6C4A3835185C2DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		992BE25D1E9F71660094B01F /* HomeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModule.h; sourceTree = "<group>"; };
+		992BE25E1E9F71660094B01F /* HomeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModule.m; sourceTree = "<group>"; };
+		992BE2651E9F7BFE0094B01F /* Modules.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Modules.plist; sourceTree = "<group>"; };
+		992BE2671E9F7F0A0094B01F /* MyModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModule.h; sourceTree = "<group>"; };
+		992BE2681E9F7F0A0094B01F /* MyModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModule.m; sourceTree = "<group>"; };
+		992BE28E1EA06DA30094B01F /* TestModule.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TestModule.framework; path = "TestModule/build/Debug-iphoneos/TestModule.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				992BE28E1EA06DA30094B01F /* TestModule.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -132,6 +142,11 @@
 		6003F593195388D20070C39A /* Example for DTRipper */ = {
 			isa = PBXGroup;
 			children = (
+				992BE2651E9F7BFE0094B01F /* Modules.plist */,
+				992BE25D1E9F71660094B01F /* HomeModule.h */,
+				992BE25E1E9F71660094B01F /* HomeModule.m */,
+				992BE2671E9F7F0A0094B01F /* MyModule.h */,
+				992BE2681E9F7F0A0094B01F /* MyModule.m */,
 				6003F59C195388D20070C39A /* DTAppDelegate.h */,
 				6003F59D195388D20070C39A /* DTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -280,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				992BE2661E9F7BFE0094B01F /* Modules.plist in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -396,7 +412,9 @@
 			files = (
 				6003F59E195388D20070C39A /* DTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DTViewController.m in Sources */,
+				992BE25F1E9F71660094B01F /* HomeModule.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				992BE2691E9F7F0A0094B01F /* MyModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +542,10 @@
 			baseConfigurationReference = 532A5EDA8461423F3272277C /* Pods-DTRipper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestModule/build/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DTRipper/DTRipper-Prefix.pch";
 				INFOPLIST_FILE = "DTRipper/DTRipper-Info.plist";
@@ -539,6 +561,10 @@
 			baseConfigurationReference = 3CF259624189673DAF00329E /* Pods-DTRipper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestModule/build/Debug-iphoneos",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DTRipper/DTRipper-Prefix.pch";
 				INFOPLIST_FILE = "DTRipper/DTRipper-Info.plist";

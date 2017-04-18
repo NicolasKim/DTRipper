@@ -1,42 +1,18 @@
-#
-# Be sure to run `pod lib lint DTRipper.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'DTRipper'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DTRipper.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '0.0.1'
+  s.summary          = 'Modular support framework'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                    Modular support framework just like BeeHive.
                        DESC
-
-  s.homepage         = 'https://github.com/jinqiucheng1006@live.cn/DTRipper'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/NicolasKim/DTRipper'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jinqiucheng1006@live.cn' => 'jinqiucheng@autohome.com.cn' }
-  s.source           = { :git => 'https://github.com/jinqiucheng1006@live.cn/DTRipper.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'DreamTracer' => 'jinqiucheng@live.cn' }
+  s.source           = { :git => 'https://github.com/NicolasKim/DTRipper.git', :tag => s.version.to_s }
+  s.social_media_url = 'http://www.jianshu.com/u/62fd4a3ecff1'
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'DTRipper/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'DTRipper' => ['DTRipper/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'DTRouter'
+  s.prefix_header_contents = '#import <DTRipper/DTRipperConstants.h>'
 end

@@ -1,0 +1,24 @@
+PODS:
+  - DTRipper (0.1.0):
+    - DTRouter
+  - DTRouter (1.0.1):
+    - DTRouter/Core (= 1.0.1)
+    - DTRouter/UI (= 1.0.1)
+  - DTRouter/Core (1.0.1)
+  - DTRouter/UI (1.0.1):
+    - DTRouter/Core
+
+DEPENDENCIES:
+  - DTRipper (from `../`)
+
+EXTERNAL SOURCES:
+  DTRipper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DTRipper: ee3b28bedacefa8c5095bf3778e9b727934fba93
+  DTRouter: b4e58429b1b0ef0998f257b1e5df23ae51044a75
+
+PODFILE CHECKSUM: a04deaf8b1fb03312b02777ab3c4891b7ddbab61
+
+COCOAPODS: 1.1.1
