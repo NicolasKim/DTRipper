@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <DTRouter/DTRouter-umbrella.h>
+#import <DTRouter/DTRouterService.h>
 #import "DTModuleManager.h"
 #import "DTRipperAppDelegate.h"
 #import "DTRipperContext.h"

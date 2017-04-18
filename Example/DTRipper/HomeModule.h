@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <DTRipper/DTRipper-umbrella.h>
+#import <DTRipper/DTRipper.h>
+#import <DTRipper/DTModuleProtocol.h>
 @interface HomeModule : NSObject<DTModuleProtocol>
 
 @end
